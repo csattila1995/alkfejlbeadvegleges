@@ -21,7 +21,7 @@ A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. A
 * /errors/list - Hibalista megjelenítése
 * /errors/new - Új hiba felvétele
 * /login/index - Bejelentkezési oldal
-* /login/signup - REgisztrációs oldal
+* /login/signup - Regisztrációs oldal
 
 #### A futtatáshoz szükséges az alábbiak megléte:
 - Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
