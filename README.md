@@ -24,7 +24,7 @@ A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. A
 * /login/signup - Regisztrációs oldal
 
 #### Adatbázismodellek
-![Spongya](/images/jogosultsagok.png)
+![Spongya](http://kepfeltoltes.hu/151108/jogosultsagok_www.kepfeltoltes.hu_.png)
 
 #### A futtatáshoz szükséges az alábbiak megléte:
 - Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
