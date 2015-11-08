@@ -1,0 +1,207 @@
+{
+  "data": {
+    "error": [
+      {
+        "status": "done",
+        "description": "2db barackos lekvár a Tescoból",
+        "date": "2015-11-07T10:27:23.642Z",
+        "createdAt": "2015-11-07T10:27:23.643Z",
+        "updatedAt": "2015-11-07T10:30:11.653Z",
+        "id": 31
+      },
+      {
+        "status": "not-done",
+        "description": "Hétfőn találkozó Melindával",
+        "date": "2015-11-07T10:28:24.912Z",
+        "createdAt": "2015-11-07T10:28:24.913Z",
+        "updatedAt": "2015-11-07T10:28:24.913Z",
+        "id": 32
+      },
+      {
+        "status": "not-done",
+        "description": "Minden nap egy alma (az orvost távol tartja) :)",
+        "date": "2015-11-07T10:29:19.069Z",
+        "createdAt": "2015-11-07T10:29:19.070Z",
+        "updatedAt": "2015-11-07T10:29:19.070Z",
+        "id": 33
+      },
+      {
+        "status": "not-done",
+        "description": "Osztott rendszerek beadandó (Határidő: November 22 éjfél)",
+        "date": "2015-11-07T10:30:01.054Z",
+        "createdAt": "2015-11-07T10:30:01.054Z",
+        "updatedAt": "2015-11-07T10:30:01.054Z",
+        "id": 34
+      },
+      {
+        "status": "done",
+        "description": "Megnézni a Bosszúállók második részét",
+        "date": "2015-11-07T10:30:39.632Z",
+        "createdAt": "2015-11-07T10:30:39.633Z",
+        "updatedAt": "2015-11-07T10:30:45.330Z",
+        "id": 35
+      },
+      {
+        "status": "done",
+        "description": "Befizetni az albérletpénzt",
+        "date": "2015-11-07T10:31:43.910Z",
+        "createdAt": "2015-11-07T10:31:43.911Z",
+        "updatedAt": "2015-11-07T10:35:02.532Z",
+        "id": 36
+      },
+      {
+        "status": "not-done",
+        "description": "COD Black Ops 3 végigjátszás (elvileg csak 7 órás a Single része...)",
+        "date": "2015-11-07T10:34:55.992Z",
+        "createdAt": "2015-11-07T10:34:55.992Z",
+        "updatedAt": "2015-11-07T10:34:55.992Z",
+        "id": 37
+      }
+    ],
+    "user": [
+      {
+        "surname": "Kiss",
+        "forename": "Ferenc",
+        "neptun": "asd123",
+        "password": "$2a$10$/TGf/ZArvBfo3sXPh0YVn.py/w6j1njImKnMCi4jyWuNi3ZUmpCGi",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-14T21:47:48.208Z",
+        "updatedAt": "2015-10-14T21:47:48.208Z",
+        "id": 1
+      },
+      {
+        "surname": "Kis",
+        "forename": "Elek",
+        "neptun": "abcd12",
+        "password": "abcd123",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-15T07:02:41.481Z",
+        "updatedAt": "2015-10-15T07:02:41.481Z",
+        "id": 2
+      },
+      {
+        "surname": "abcd12",
+        "forename": "abcd12",
+        "neptun": "abcd123",
+        "password": "$2a$10$M3kw2vSNxsZwnc4xUVcvHeiDJSsonu1KZJvIJE53kYhC294sxrnj6",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-15T07:20:15.875Z",
+        "updatedAt": "2015-10-15T07:20:15.875Z",
+        "id": 3
+      },
+      {
+        "surname": "asd",
+        "forename": "asd",
+        "neptun": "asd",
+        "password": "$2a$10$5cQ29g7B8j1x8Wsk.ELQmO/Fnco/RVpFXZ8OojudWuyoGSZSXcDQq",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-10-27T12:04:17.648Z",
+        "updatedAt": "2015-10-27T12:04:17.648Z",
+        "id": 4
+      },
+      {
+        "surname": "dsa",
+        "forename": "dsa",
+        "neptun": "dsa",
+        "password": "$2a$10$rSwslJj7D.prA751C48XTOOUhdKknT6BGgc5fRJ.6cCzX3hLVud4W",
+        "role": "riporter",
+        "createdAt": "2015-11-07T09:19:41.397Z",
+        "updatedAt": "2015-11-07T09:19:41.398Z",
+        "id": 5
+      },
+      {
+        "surname": "aa",
+        "forename": "aa",
+        "neptun": "aa",
+        "password": "$2a$10$vtjsv1pdglLlWHG0.qfy3eLwGCscinhH7sZ.bDFVASIAA1V/.m95K",
+        "role": "riporter",
+        "createdAt": "2015-11-07T10:24:59.828Z",
+        "updatedAt": "2015-11-07T10:24:59.828Z",
+        "id": 6
+      }
+    ]
+  },
+  "schema": {
+    "error": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "not-done",
+          "done"
+        ],
+        "defaultsTo": "not-done"
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "error": {
+      "id": 38
+    },
+    "user": {
+      "id": 6
+    }
+  }
+}

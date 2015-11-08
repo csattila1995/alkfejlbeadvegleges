@@ -1,0 +1,36 @@
+{
+  "name": "familytodo",
+  "version": "1.0.0",
+  "description": "Teendőkezelő app",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "express-session": "^1.12.0",
+    "express-validator": "^2.17.1",
+    "express": "^4.13.3",
+    "hbs": "^3.1.1",
+    "mongodb": "^2.0.47",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "sails-disk": "^0.10.8",
+    "sails-memory": "^0.10.5",
+    "sails-postgresql": "^0.10.16",
+    "waterline": "^0.10.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csattila1995/alkfejlbeadvegleges.git"
+  },
+  "author": "csattila1995",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csattila1995/alkfejlbeadvegleges/issues"
+  },
+  "homepage": "https://github.com/csattila1995/alkfejlbeadvegleges#readme"
+}
