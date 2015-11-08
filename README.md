@@ -17,12 +17,12 @@ A cél egy családi teendők menedzselését biztosító egyszeű internetes alk
 A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. Azaz ezután tudunk újat hozzáadni, törölni és szerkeszteni. A program az adatokat fájlban tárolja.
 
 #### Szemantikus URIk:
-*/errors/edit - Szerkesztés
-*/errors/list - Hibalista megjelenítése
-*/errors/new - Új hiba felvétele
+* /errors/edit - Szerkesztés
+* /errors/list - Hibalista megjelenítése
+* /errors/new - Új hiba felvétele
 
-*/login/index - Bejelentkezési oldal
-*/login/signup - REgisztrációs oldal
+* /login/index - Bejelentkezési oldal
+* /login/signup - REgisztrációs oldal
 
 #### A futtatáshoz szükséges az alábbiak megléte:
 - Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
