@@ -1,3 +1,27 @@
-# alkfejlbeadvegleges
-Beadandó
-g
+## Alkalmazások fejlesztése (1. beadandó feladat)
+### Császári Attila (TTDFU6)
+
+#### Megtekintés a Heroku webszerveren
+https://http://alkfejlbeadveglegescsattila.herokuapp.com/
+
+#### Feladat leírása
+A cél egy családi teendők menedzselését biztosító egyszeű internetes alkalmazás elkészítése.
+
+#### FUnkciók
+* Regisztráció
+* Bejelentkezés
+* Új teendő flevétele
+* Meglévő teendő törlése
+* Meglévő teendő szerkesztése
+
+A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. Azaz ezután tudunk újat hozzáadni, törölni és szerkeszteni. A program az adatokat fájlban tárolja.
+
+#### A futtatáshoz szükséges az alábbiak megléte:
+- Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
+
+#### Fejlesztőknek
+- Github repository klónozása után egy ``` npm init ``` parancsot kell kiadnunk.
+- ``` npm install ``` segítségével telepíthetők a szükséges csomagok a fejlesztéshez a ``` package.json ``` alapján.
+- NodeJS szükséges a futtatáshoz
+
+
