@@ -7,7 +7,7 @@ https://http://alkfejlbeadveglegescsattila.herokuapp.com/
 #### Feladat leírása
 A cél egy családi teendők menedzselését biztosító egyszeű internetes alkalmazás elkészítése.
 
-#### FUnkciók
+#### Funkciók
 * Regisztráció
 * Bejelentkezés
 * Új teendő flevétele
@@ -15,6 +15,14 @@ A cél egy családi teendők menedzselését biztosító egyszeű internetes alk
 * Meglévő teendő szerkesztése
 
 A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. Azaz ezután tudunk újat hozzáadni, törölni és szerkeszteni. A program az adatokat fájlban tárolja.
+
+#### Szemantikus URIk:
+*/errors/edit - Szerkesztés
+*/errors/list - Hibalista megjelenítése
+*/errors/new - Új hiba felvétele
+
+*/login/index - Bejelentkezési oldal
+*/login/signup - REgisztrációs oldal
 
 #### A futtatáshoz szükséges az alábbiak megléte:
 - Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
