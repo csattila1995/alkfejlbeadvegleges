@@ -24,7 +24,7 @@ A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. A
 * /login/signup - Regisztrációs oldal
 
 #### Adatbázismodellek
-IDE MAJD JÖN A KÉP
+![Spongya](/images/jogosultsagok.png)
 
 #### A futtatáshoz szükséges az alábbiak megléte:
 - Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
