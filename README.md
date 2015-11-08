@@ -23,6 +23,9 @@ A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. A
 * /login/index - Bejelentkezési oldal
 * /login/signup - Regisztrációs oldal
 
+#### Adatbázismodellek
+IDE MAJD JÖN A KÉP
+
 #### A futtatáshoz szükséges az alábbiak megléte:
 - Egy javascript futtatására alkalmas böngésző (Edge, Firefox, Chrome, Safari, Opera)
 
