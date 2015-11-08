@@ -16,11 +16,10 @@ A cél egy családi teendők menedzselését biztosító egyszeű internetes alk
 
 A teendők adatbázisához csak regisztrációt követően lehet hozzáférni. Azaz ezután tudunk újat hozzáadni, törölni és szerkeszteni. A program az adatokat fájlban tárolja.
 
-#### Szemantikus URIk:
+#### Szemantikus URIk
 * /errors/edit - Szerkesztés
 * /errors/list - Hibalista megjelenítése
 * /errors/new - Új hiba felvétele
-
 * /login/index - Bejelentkezési oldal
 * /login/signup - REgisztrációs oldal
 
